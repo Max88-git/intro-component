@@ -49,6 +49,20 @@ main {
 .left-section {
   width: 50%;
   height: 100%;
+  align-self: center;
+}
+
+.left-section h2 {
+  padding: 0rem;
+  margin-bottom: 1.875rem;
+  font-weight: 700;
+  font-size: calc(3.063 * var(--font-size));
+  line-height: 3.5rem;
+}
+
+.left-section p {
+  padding: 0rem;
+  line-height: 1.6rem;
 }
 
 .right-section {
