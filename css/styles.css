@@ -88,3 +88,27 @@ main {
 .form-promo p span {
   font-weight: 600;
 }
+
+form {
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0px 8px 0px var(--opaque-dark-blue);
+}
+
+.input-group {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.input-text {
+  width: 100%;
+  padding: 1rem;
+  color: var(--dark-blue);
+  border-radius: 5px;
+  border: 1px solid var(--grayish-blue);
+  width: 100%;
+  font-size: calc(0.9 * var(--font-size));
+  font-weight: 700;
+  border: none;
+}
