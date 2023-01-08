@@ -23,4 +23,35 @@ body {
 body {
   width: 100%;
   font-family: "Poppins", sans-serif;
+  color: var(--white);
+  background-image: url(/assets/images/bg-intro-desktop.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: var(--red);
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1112px;
+}
+
+.left-section {
+  width: 50%;
+  height: 100%;
+}
+
+.right-section {
+  width: 50%;
+  height: 100%;
 }
