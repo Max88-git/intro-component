@@ -92,7 +92,7 @@ main {
 form {
   background-color: var(--white);
   border-radius: 10px;
-  padding: 1rem;
+  padding: 2rem;
   box-shadow: 0px 8px 0px var(--opaque-dark-blue);
 }
 
@@ -107,8 +107,51 @@ form {
   color: var(--dark-blue);
   border-radius: 5px;
   border: 1px solid var(--grayish-blue);
-  width: 100%;
   font-size: calc(0.9 * var(--font-size));
   font-weight: 700;
+}
+
+.input-text:focus {
+  border: 2px solid var(--blue);
+  outline: none;
+  caret-color: var(--blue);
+}
+
+.error-icon {
+  display: none;
+  position: absolute;
+  top: 0.8rem;
+  right: 1.5rem;
+}
+
+.error-message {
+  display: none;
+  text-align: right;
+  color: var(--red);
+  font-size: calc(0.75 * var(--font-size));
+  font-weight: 500;
+  font-style: italic;
+}
+
+#submit {
+  width: 100%;
+  padding: 1rem;
   border: none;
+  cursor: pointer;
+  background-color: var(--green);
+  color: var(--white);
+  font-weight: 500;
+  font-size: calc(0.9 * var(--font-size));
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border-radius: 5px;
+  box-shadow: inset 0px -2px 0px var(--opaque-dark-blue);
+}
+
+#submit:hover {
+  opacity: 0.6;
+}
+
+#submit:active {
+  opacity: 0.8;
 }
