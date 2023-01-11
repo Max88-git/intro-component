@@ -45,6 +45,7 @@ main {
   flex-direction: row;
   gap: 1.875rem;
   max-width: 1112px;
+  padding: 2rem;
 }
 
 .left-section {
@@ -161,10 +162,52 @@ form {
   margin: 1rem auto 0;
   color: var(--grayish-blue);
   font-size: calc(0.75 * var(--font-size));
+  text-align: center;
 }
 
 .form-disclaimer a {
   font-weight: 600;
   color: var(--red);
   text-decoration: none;
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  body {
+    background-image: url("/assets/images/bg-intro-mobile.png");
+    background-color: var(--red);
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  .container {
+    height: 100vh;
+    margin: 6.25rem 0 3.75rem 0;
+    gap: 0.25rem;
+    flex-direction: column;
+  }
+  .left-section {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+  }
+  .left-section h2 {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+  }
+  .right-section {
+    width: 100%;
+    padding: 2rem;
+  }
+  .form-promo {
+    margin-bottom: 1.5rem;
+  }
+  form {
+    padding: 1.5rem;
+  }
+  .form-disclaimer {
+    text-align: center;
+    font-size: 0.7rem;
+  }
 }
