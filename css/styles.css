@@ -74,7 +74,7 @@ main {
 
 .form-promo {
   background-color: var(--blue);
-  padding: 1rem 4rem;
+  padding: 1rem 2rem;
   margin-bottom: 2rem;
   border-radius: 10px;
   box-shadow: 0px 8px 0px var(--opaque-dark-blue);
@@ -171,6 +171,34 @@ form {
   text-decoration: none;
 }
 
+/* Laptop */
+@media screen and (max-width: 768px) {
+  .left-section h2 {
+    font-size: calc(2.5 * var(--font-size));
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    height: 100vh;
+    margin: 6.25rem 0 3.75rem 0;
+    gap: 0.25rem;
+    flex-direction: column;
+  }
+  .left-section {
+    width: 100%;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .left-section h2 {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+  }
+  .right-section {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
 /* Mobile */
 @media screen and (max-width: 480px) {
   body {
@@ -182,25 +210,10 @@ form {
     position: relative;
   }
   .container {
-    height: 100vh;
-    margin: 6.25rem 0 3.75rem 0;
-    gap: 0.25rem;
-    flex-direction: column;
-  }
-  .left-section {
-    width: 100%;
-    padding: 2rem;
-    text-align: center;
-  }
-  .left-section h2 {
-    font-size: 1.7rem;
-    line-height: 2.5rem;
-  }
-  .right-section {
-    width: 100%;
-    padding: 2rem;
+    padding: 0;
   }
   .form-promo {
+    padding: 1rem 4rem;
     margin-bottom: 1.5rem;
   }
   form {
