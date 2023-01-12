@@ -198,6 +198,7 @@ form {
     width: 100%;
     padding: 1.5rem;
   }
+}
 
 /* Mobile */
 @media screen and (max-width: 480px) {
