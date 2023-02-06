@@ -134,6 +134,15 @@ form {
   font-style: italic;
 }
 
+.input-group.error .error-message,
+.input-group.error .error-icon {
+  display: block;
+}
+
+.input-group.error input {
+  border: 2px solid var(--red);
+}
+
 #submit {
   width: 100%;
   padding: 1rem;
