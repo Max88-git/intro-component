@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Max88-git/intro-component)
-- Live Site URL: [Add live site URL here](https://max88-git.github.io/intro-component/)
+- Solution URL: [Solution](https://github.com/Max88-git/intro-component)
+- Live Site URL: [Live](https://max88-git.github.io/intro-component/)
 
 ## My process
 
