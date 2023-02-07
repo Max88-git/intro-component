@@ -24,7 +24,7 @@ body {
   width: 100%;
   font-family: "Poppins", sans-serif;
   color: var(--white);
-  background-image: url("/assets/images/bg-intro-desktop.png");
+  background-image: url("../assets/images/bg-intro-desktop.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -212,7 +212,7 @@ form {
 /* Mobile */
 @media screen and (max-width: 480px) {
   body {
-    background-image: url("/assets/images/bg-intro-mobile.png");
+    background-image: url("../assets/images/bg-intro-mobile.png");
     background-color: var(--red);
     min-height: 100vh;
     height: 100%;
